@@ -1,0 +1,17 @@
+Checklist Fotogram:
+https://docs.google.com/document/d/1HhhyIKb2mDSo8nL8vihktD4ap_V_04EnWoZF2bG8F7I/edit?tab=t.0#heading=h.7fcb2xwzorwo
+
+Checklist WCAG:
+https://docs.google.com/document/d/181tOm2MZzKUMsLcX8VGJn04Ok8ozBRYtyJghFNDNmBw/edit?tab=t.0#heading=h.ahse5n8hnxts
+
+Checklist HTML:
+https://docs.google.com/document/d/1qI49pHzrxVKayE1xHW8tp8sgM85GEjhFMZ3nfp674zQ/edit?tab=t.0#heading=h.dolfq48cnpz
+
+Checklist JS:
+https://docs.google.com/document/d/1SneutSHdqFjvpzotSiyIWcI4qvmcQE13DFUr_4NbDB0/edit?tab=t.0#heading=h.dolfq48cnpz
+
+Checklist CSS:
+https://docs.google.com/document/d/191ahGkHyZcnbFUqgKwjZTCr9ilUW5uF4V2X9IDNVnsI/edit?tab=t.0#heading=h.dolfq48cnpz
+
+Figma:
+https://www.figma.com/design/d4OrekigxSWj0bMrltwsb8/Fotogram?node-id=0-1&m=dev
