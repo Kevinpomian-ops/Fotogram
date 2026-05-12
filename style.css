@@ -1,0 +1,18 @@
+#imgs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+#imgs>img {
+    height: 150px;
+}
+
+.test{
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
