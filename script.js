@@ -18,10 +18,9 @@ const myImgs2 = [
 function renderImgs() {
     let images = "";
     for (Image in myImgs2) {
-        // console.log(myImgs2[Image]);
         images += `
         <div onclick="openDialog()"class=" ${myImgs2[Image].klasse} " ${myImgs2[Image].activ}>
-        <img src="assats/img/${myImgs2[Image].path}" alt="${myImgs2[Image].desc}">
+        <img src="assats/img/${myImgs2[Image].path}" alt="${myImgs2[Image].desc}" id="Image${Image}">
         </div>
         `
     }
@@ -87,7 +86,3 @@ function dialogBack() {
     }
     renderDialog();
 }
-
-const index = myImgs2.findIndex(img => img.path === "kanenori-temple-6963458_1280.jpg");
-
-console.log(index);
