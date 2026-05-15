@@ -4,6 +4,7 @@
     box-sizing: border-box;
 
 }
+
 /* Header */
 header {
     display: flex;
@@ -65,6 +66,16 @@ h1 {
     height: 150px;
     background-position: center;
     background-size: cover;
+    background-color: brown;
+    align-items: center;
+
+}
+
+.test>img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    border-radius: 10px;
 }
 
 footer {
@@ -81,16 +92,3 @@ footer {
     background-color: rgb(138, 20, 20);
 }
 
-#open {
-    background-color: brown;
-    align-items: center;
-
-
-}
-
-#open>img {
-    height: 150px;
-    width: 150px;
-    border: 2px solid red;
-    border-radius: 10px;
-}
