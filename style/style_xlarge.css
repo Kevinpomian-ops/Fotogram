@@ -1,5 +1,9 @@
 @media screen and (min-width: 2560px) {
-    /* .header {
-        padding: 46px max(calc(50% - 720px), 64px);
-    } */
+    header {
+        padding-left: max(calc(50% - 720px), 180px);
+    }
+
+    main {
+        gap: 215px;
+    }
 }

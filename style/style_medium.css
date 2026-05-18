@@ -1,4 +1,57 @@
 @media screen and (min-width: 481px) and (max-width: 970px) {
+    header {
+        padding-left: 0;
+        align-items: center;
+        justify-content: center;
 
+    }
 
+    header>h2 {
+        font-size: 38px;
+    }
+
+    main {
+        padding: 135px 30px;
+    }
+
+    h1 {
+        font-weight: 800;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .arrayclass {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    header>h2 {
+        padding-left: 8px;
+        color: azure;
+    }
+
+    .dialogHeader {
+        padding: 30px 30px;
+    }
+
+    dialog>nav {
+        gap: 77px;
+    }
+
+    #closeButton {
+        height: 32px;
+        width: 32px;
+        font-size: 24px;
+    }
+
+    .dialogImg img {
+        height: 19.125rem;
+        width: 100%;
+        padding: 0px 20px;
+    }
+
+    .dialogHeader>h2 {
+        font-size: 20px;
+    }
 }

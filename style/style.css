@@ -24,7 +24,7 @@ header {
     display: flex;
     align-items: center;
 
-    padding-left: 140px;
+    padding-left: 180px;
 
     background-color: rgb(138, 20, 20);
 
@@ -57,10 +57,8 @@ main {
     flex-direction: column;
     flex: 1;
 
-    padding-top: 160px;
-    padding-bottom: 190px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding: 153px 140px;
+
     
     gap: 80px;
 }
@@ -95,6 +93,10 @@ footer {
     display: flex;
 }
 
+.dialogHeader>h2{
+    font-size: 24px;
+}
+
 #imgDialog {
     color: rgb(253, 0, 0);
     background-color: rgb(36, 5, 4);
@@ -120,8 +122,6 @@ footer {
     justify-content: space-between;
 
     color: azure;
-    font-size: 24px;
-    font-weight: 700;
     padding: 40px 60px;
 }
 
@@ -140,13 +140,13 @@ footer {
     height: 150px;
     background-position: center;
     background-size: cover;
-    background-color: brown;
+    background-color: rgb(36, 5, 4);
     align-items: center;
 }
 
 .arrayclass>img {
-    height: 150px;
-    width: 150px;
+    height: 100%;
+    width: 100%;
     border: 2px solid red;
     border-radius: 10px;
 }
@@ -200,4 +200,9 @@ dialog>nav {
     background-color: rgba(255, 0, 0, 0.274);
     color: azure;
     font-size: 30px;
+}
+
+button:focus-visible {
+    outline: 3px solid #ff0000;
+    outline-offset: 2px;
 }

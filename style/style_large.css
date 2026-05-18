@@ -1,4 +1,9 @@
 @media screen and (min-width: 971px) and (max-width: 1279px) {
+    h1 {
+        font-size: 50px;
+    }
 
-
+    main {
+        padding: 70px 140px;
+    }
 }

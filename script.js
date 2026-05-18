@@ -3,7 +3,7 @@ const myImgs2 = [
     { path: "binmassam-chef-4807317_1280.jpg", desc: "Foto von Streetfood Japan", klasse: "arrayclass" },
     { path: "deltaworks-japanese-umbrellas-636870_1280.jpg", desc: "Foto von Regenschirme", klasse: "arrayclass" },
     { path: "djedj-japanese-lantern-5568727_1280.jpg", desc: "Foto von einer Dekoration", klasse: "arrayclass" },
-    { path: "jplenio-traditional-8245250_1280.jpg", desc: "Foto von Abtrennungen in einem Raum", klasse: "arrayclass" },
+    { path: "jplenio-traditional-8245250_1280.jpg", desc: "Foto von einem Raum", klasse: "arrayclass" },
     { path: "kanenori-mountains-8031511_1280.jpg", desc: "Foto auf einem Berg in der nacht", klasse: "arrayclass" },
     { path: "kanenori-temple-6963458_1280.jpg", desc: "Foto von einem Tempel in der nacht", klasse: "arrayclass" },
     { path: "mailtotobi-waterfall-4259935_1280.jpg", desc: "Foto von einem Wasserfall", klasse: "arrayclass" },
@@ -38,7 +38,7 @@ function renderDialog() {
     let dialog = "";
     dialog += `
         <div class="dialogHeader">
-            <p>Bild: ${myImgs2[activeImg].desc}</p>
+            <h2>Bild: ${myImgs2[activeImg].desc}</h2>
         <button id="closeButton" onclick="closeDialog()">X</button>
         </div>
 
@@ -87,4 +87,3 @@ function dialogBack() {
     }
     renderDialog();
 }
-    
