@@ -1,0 +1,203 @@
+
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(36, 5, 4);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+/* ===============
+    Header
+==================*/
+
+header {
+    display: flex;
+    align-items: center;
+
+    padding-left: 140px;
+
+    background-color: rgb(138, 20, 20);
+
+    font-size: 35px;
+    font-weight: 700;
+    height: 81px;
+}
+
+header>h2 {
+    padding-left: 8px;
+    color: azure;
+}
+
+header>img {
+    width: 2.735rem;
+    height: 2.735rem;
+}
+
+/* ===============
+    Kontent-Page
+==================*/
+
+#imgs>button{
+    border: none;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    padding-top: 160px;
+    padding-bottom: 190px;
+    padding-left: 140px;
+    padding-right: 140px;
+    
+    gap: 80px;
+}
+
+h1 {
+    align-items: center;
+    color: azure;
+    font-weight: 800;
+    font-size: 56px;
+}
+
+/* ===============
+    Footer
+==================*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    padding: 20px;
+
+    background-color: rgb(138, 20, 20);
+}
+
+/* =================
+    Kontent-Dialog
+====================*/
+
+#imgDialog:open {
+    display: flex;
+}
+
+#imgDialog {
+    color: rgb(253, 0, 0);
+    background-color: rgb(36, 5, 4);
+    border-radius: 40px;
+
+    height: 42.1875rem;
+    width: 43.125rem;
+    gap: 70px;
+
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.dialogImg img {
+    height: 21.125rem;
+    width: 35rem;
+}
+
+.dialogHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: azure;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 40px 60px;
+}
+
+
+#imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1440px;
+    overflow: hidden;
+}
+
+.arrayclass {
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    background-color: brown;
+    align-items: center;
+}
+
+.arrayclass>img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+
+
+#closeButton {
+    justify-content: center;
+    align-items: center;
+
+    color: azure;
+    background-color: unset;
+    border: none;
+    height: 32px;
+    width: 32px;
+
+    font-size: 35px;
+}
+
+
+
+dialog>nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 5px;
+}
+
+#nextButton {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    border: 0;
+    background-color: rgba(255, 0, 0, 0.274);
+    color: azure;
+    font-size: 30px;
+
+}
+
+.counter {
+    color: azure;
+}
+
+#backButton {
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    border: 0;
+    background-color: rgba(255, 0, 0, 0.274);
+    color: azure;
+    font-size: 30px;
+}
