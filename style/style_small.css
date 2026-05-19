@@ -50,6 +50,7 @@
         height: 19.125rem;
         width: 100%;
         padding: 0px 20px;
+        object-fit: cover;
     }
 
     .dialogHeader>h2 {

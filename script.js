@@ -1,4 +1,4 @@
-const myImgs2 = [
+const myImgs = [
     { path: "alexanderweichsel-japan-9074037_1280.jpg", desc: "Foto von Torii-Tor", class: "arrayclass" },
     { path: "binmassam-chef-4807317_1280.jpg", desc: "Foto von Streetfood Japan", class: "arrayclass" },
     { path: "deltaworks-japanese-umbrellas-636870_1280.jpg", desc: "Foto von Regenschirme", class: "arrayclass" },
@@ -17,10 +17,10 @@ let activeImg = 1;
 
 function renderImgs() {
     let images = "";
-    for (Image in myImgs2) {
+    for (Image in myImgs) {
         images += `
-        <button onclick="openDialog(${Image})"class=" ${myImgs2[Image].class} ">
-            <img src="assats/img/${myImgs2[Image].path}" alt="${myImgs2[Image].desc}" id="image${Image}">
+        <button onclick="openDialog(${Image})"class=" ${myImgs[Image].class} ">
+            <img src="assats/img/${myImgs[Image].path}" alt="${myImgs[Image].desc}" id="image${Image}">
         </button>
         `
     }
@@ -31,17 +31,17 @@ function renderDialog() {
     let dialog = "";
     dialog += `
         <div class="dialogHeader">
-            <h2>Bild: ${myImgs2[activeImg].desc}</h2>
+            <h2>Bild: ${myImgs[activeImg].desc}</h2>
             <button id="closeButton" onclick="closeDialog()">X</button>
         </div>
 
         <div class="dialogImg">
-            <img src="./assats/img/${myImgs2[activeImg].path}" alt="${myImgs2[activeImg].desc}" >
+            <img src="./assats/img/${myImgs[activeImg].path}" alt="${myImgs[activeImg].desc}" >
         </div>
 
         <nav>
             <button onclick="dialogBack()" id="backButton">←</button>
-            <p class="counter">${activeImg + 1}/${myImgs2.length}</p>
+            <p class="counter">${activeImg + 1}/${myImgs.length}</p>
             <button onclick="dialogNext()" id="nextButton">→</button>
         </nav>
     `;
@@ -61,7 +61,7 @@ function closeDialog() {
 function dialogNext() {
     activeImg = activeImg + 1;
 
-    if (activeImg > myImgs2.length - 1) {
+    if (activeImg > myImgs.length - 1) {
         activeImg = 0;
     }
     renderDialog();
@@ -71,7 +71,7 @@ function dialogBack() {
     activeImg = activeImg - 1;
 
     if (activeImg < 0) {
-        activeImg = myImgs2.length - 1;
+        activeImg = myImgs.length - 1;
     }
     renderDialog();
 }
