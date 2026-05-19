@@ -13,26 +13,19 @@ const myImgs2 = [
     { path: "takatoshikun-cafe-5899078_1280.jpg", desc: "Foto von einem kleinen Laden außen", class: "arrayclass" }
 ]
 
-
-
-
+let activeImg = 1;
 
 function renderImgs() {
     let images = "";
     for (Image in myImgs2) {
         images += `
         <button onclick="openDialog(${Image})"class=" ${myImgs2[Image].class} ">
-        <img src="assats/img/${myImgs2[Image].path}" alt="${myImgs2[Image].desc}" id="image${Image}">
+            <img src="assats/img/${myImgs2[Image].path}" alt="${myImgs2[Image].desc}" id="image${Image}">
         </button>
         `
     }
     document.getElementById('imgs').innerHTML = images;
 }
-renderImgs();
-
-let activeImg = 1;
-
-
 
 function renderDialog() {
     let dialog = "";
@@ -53,10 +46,7 @@ function renderDialog() {
         </nav>
     `;
     document.getElementById('imgDialog').innerHTML = dialog;
-
 }
-renderDialog();
-
 
 function openDialog(i) {
     activeImg = i;
@@ -64,14 +54,12 @@ function openDialog(i) {
     renderDialog();
 }
 
-
 function closeDialog() {
     document.getElementById("imgDialog").close();
 }
 
 function dialogNext() {
     activeImg = activeImg + 1;
-
 
     if (activeImg > myImgs2.length - 1) {
         activeImg = 0;
@@ -81,7 +69,6 @@ function dialogNext() {
 
 function dialogBack() {
     activeImg = activeImg - 1;
-
 
     if (activeImg < 0) {
         activeImg = myImgs2.length - 1;
