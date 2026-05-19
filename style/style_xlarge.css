@@ -1,9 +1,60 @@
 @media screen and (min-width: 2560px) {
     header {
         padding-left: max(calc(50% - 720px), 180px);
+        font-size: 48px;
+    }
+
+    header>img {
+        width: 3.735rem;
+        height: 3.735rem;
     }
 
     main {
         gap: 215px;
+    }
+
+    h1 {
+        font-size: 77px;
+    }
+
+    .arrayclass {
+        width: 197px;
+        height: 197px;
+
+    }
+
+    .dialogHeader>h2 {
+        font-size: 46px;
+    }
+
+    #closeButton {
+        font-size: 47px;
+    }
+
+    #imgDialog {
+        height: 53.1875rem;
+        width: 90.125rem;
+    }
+
+    .dialogImg img {
+        height: 37.125rem;
+        width: 70rem;
+    }
+
+    #nextButton {
+        height: 75px;
+        width: 75px;
+        font-size: 45px;
+    }
+
+    #backButton {
+        height: 75px;
+        width: 75px;
+        font-size: 45px;
+    }
+
+    footer img {
+        height: 115px;
+        width: 360px;
     }
 }
